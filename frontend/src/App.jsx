@@ -5,6 +5,8 @@ import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 import FindDoctor from "./components/FindDoctor";
 import TargetCursor from "./components/cursor/TargetCursor";
+import ServiceCards from "./components/ServiceCards";
+import SlotSchedule from "./components/SlotSchedule";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <HeroSection/>
       <FindDoctor/>
       <ContactForm />
+      <ServiceCards />
+      <SlotSchedule />
       <Footer />
     </div>
   );
